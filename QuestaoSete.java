@@ -2,33 +2,6 @@ package br.com.letscode.java;
 
 import java.util.Scanner;
 
-class Pessoa {
-    private String nome;
-    private int idade;
-    public Pessoa() {
-
-    }
-    public Pessoa(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-}
-
 public class QuestaoSete {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
