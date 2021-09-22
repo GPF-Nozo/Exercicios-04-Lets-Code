@@ -15,10 +15,10 @@ class Pessoaa {
 }
 
 
-public class Questao8 {
+public class QuestaoOito {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Pessoaa[] pessoas = new Pessoaa[];
+        Pessoaa[] pessoas = new Pessoaa[5];
         double imc;
         for(int i = 0; i < 5; i++){
             System.out.print("Coloque seu nome: ");
