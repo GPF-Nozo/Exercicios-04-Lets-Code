@@ -3,44 +3,6 @@ package br.com.letscode.java;
 import java.util.Scanner;
 import java.lang.Math;
 
-class Pessoa {
-    public String nome;
-    public double alturaMetro;
-    public double pesoQuilograma;
-    public Pessoa() {
-
-    }
-    public Pessoa(String nome, double alturaMetro, double pesoQuilograma) {
-        this.nome = nome;
-        this.alturaMetro = alturaMetro;
-        this.pesoQuilograma = pesoQuilograma;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setAltura(double alturaMetro) {
-        this.alturaMetro = alturaMetro;
-    }
-
-    public void setPeso(double pesoQuilograma) {
-        this.pesoQuilograma = pesoQuilograma;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public double getAltura() {
-        return alturaMetro;
-    }
-
-    public double getPeso() {
-        return pesoQuilograma;
-    }
-}
-
 public class QuestaoOito {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
