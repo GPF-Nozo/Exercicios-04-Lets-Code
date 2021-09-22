@@ -5,6 +5,8 @@ import java.util.Scanner;
 class Pessoa {
     public String nome;
     public int idade;
+    public Pessoa() {
+    }
     public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
@@ -18,6 +20,7 @@ public class QuestaoSete {
         String novo = "", velho = "";
         Pessoa[] pessoas = new Pessoa[5];
         for (int i = 0; i < 5; i++) {
+            pessoas[i] = new Pessoa();
             System.out.print("Coloque o nome da pessoa: ");
             pessoas[i].nome = sc.nextLine();
             System.out.print("Coloque a idade: ");
