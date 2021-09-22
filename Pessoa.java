@@ -12,6 +12,14 @@ public class Pessoa {
         this.nome = nome;
         this.idade = idade;
     }
+    
+    
+    public Pessoa(String nome, double alturaMetro, double pesoQuilograma) {
+        this.nome = nome;
+        this.alturaMetro = alturaMetro;
+        this.pesoQuilograma = pesoQuilograma;
+    }
+    
     public void setNome(String nome) {
         this.nome = nome;
     }
