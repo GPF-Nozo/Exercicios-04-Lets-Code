@@ -6,7 +6,7 @@ import java.lang.Math;
 public class QuestaoOito {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Pessoaa[] pessoas = new Pessoaa[5];
+        Pessoa[] pessoas = new Pessoa[5];
         double imc;
         for(int i = 0; i < 5; i++){
             pessoas[i] = new Pessoa();
