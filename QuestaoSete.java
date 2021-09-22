@@ -11,7 +11,7 @@ class Pessoa {
     }
 }
 
-public class Questao7 {
+public class QuestaoSete {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int maior = 0, menor = 0, soma = 0;
