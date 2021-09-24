@@ -3,8 +3,8 @@ package br.com.letscode.java;
 public class Pessoa {
     private String nome;
     private int idade;
-    public double alturaMetro;
-    public double pesoQuilograma;
+    private double alturaMetro;
+    private double pesoQuilograma;
     public Pessoa() {
 
     }
